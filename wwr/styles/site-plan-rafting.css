@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="ut-8">
+    <meta name="Viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>Thomas Mosses | wdd130</title>
+    <meta name=""content="Explore Moses's journey into software development and how Brigham Young University helped him realize his dream.">
+    <meta name="author"content="Thomas Moses">
+<link rel="stylesheet" href="styles/site-plan-rafting.css">
+</head>
+
+</html>
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  :root {
+    --primary-color: #007bff;
+  
+    --secondary-color: #6c757d;
+  
+    --accent-color: #28a745;
+  
+    --additional-accent-color: #ffc107;
+  
+    --heading-font: 'Roboto', sans-serif;
+  
+    --paragraph-font: 'Open Sans', sans-serif;
+  
+    --navigation-background-color: #093f75;
+  
+    --navigation-link-color: #333;
+  
+    --navigation-hover-link-color: #007bff;
+  
+    --navigation-hover-background-color: #e9ecef;
+  }
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px; "align-self: start;"
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font); 
+    color: #333;
+  }
+  header {
+    padding: 20px;
+    background-color: var(--accent-color);
+  }
+  p {
+    padding: 10px;
+  }
