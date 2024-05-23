@@ -9,15 +9,12 @@ footer,
 .grid {
   max-width: 840px;
   margin: auto;
+}
   
-  {
-
-
 {
   .grid
   align-items: center;
-
-  { 
+}
     main{
       grid-column: 2/3;
       margin: 1rem;
@@ -49,7 +46,7 @@ a nav{
 h1 {
   color: steelblue;
   border-bottom: 1px solid steelblue;
-
+}
   main img {
     width: 250px;
     height: auto;
