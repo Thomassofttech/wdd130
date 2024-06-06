@@ -222,14 +222,14 @@ footer a {
     align-items: flex-start;
 }
 
-*{
+{
     border: 2px solid color(blue);
-} */ 
+} 
 
 /* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Oswald&display=swap');
 
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
