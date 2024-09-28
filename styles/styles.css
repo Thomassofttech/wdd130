@@ -1,0 +1,35 @@
+nav  ul {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(46, 21, 114);
+    padding: 20px;
+}
+h1 {
+    color: steelblue;
+}
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 50px gray;
+}
+p {
+    padding: 1opx;
+}
+aside img {
+  width: 500px;  
+  height: auto;
+}
+header {
+    background-color: yellow;
+    width: 100%;
+}
+nav {
+    width: max-content;
+    background-color: aqua;
+    margin: auto;
+}
