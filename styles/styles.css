@@ -10,13 +10,12 @@ nav a {
 h1 {
     color: steelblue;
 }
-img {
-    width: 300px;
+main img {
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 50px gray;
-    float: left
 }
 p {
     padding: 1opx;
@@ -24,6 +23,12 @@ p {
 aside img {
   width: 200px;  
   height: auto;
+}
+aside{
+    width: ;
+    border: ;
+    padding: ;
+    background-color: ;
 }
 header {
     background-color: yellow;
@@ -40,3 +45,14 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+/* i`m practising CSS Layout: Positioning /*
+p {
+    background: rgb(255 84 104 / 30%);
+    border: 2px solid rgb(255 84 104);
+    padding: 10px;
+    margin: 10px;
+  }
+  span {
+    background: white;
+    border: 1px solid black;
+  }
