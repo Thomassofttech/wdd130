@@ -1,5 +1,4 @@
-
- @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Open+Sans&display=swap');
 
 
 :root {
@@ -18,8 +17,10 @@
     --navigation-hover-background-color: #f5f2f2;
 }
 
+
 body {
     font-family: var(--paragraph-font);
+    background-color: #98ca0d81;
 }
 
 h1,
@@ -31,117 +32,6 @@ h6 {
     font-family: var(--heading-font);
     color: var(--font-color);
 }
-
- img {
-    width: 100%;
-} 
- header,
-main,
-footer {
-    max-width: 100px;
-    margin: 0 auto;
-}
-
-header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    gap: 50px;
-    align-items: center;
-} 
-
-.logo {
-    width: 150px;
-}
-
-.navigation {
-    background-color: var(--navigation-background-color);
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.navigation a {
-    text-decoration: none;
-    ;
-    padding: 1em;
-    color: var(--navigation-link-color);
-}
-
-.navigation a:hover {
-    background-color: var(--navigation-hover-background-color);
-    color: var(--navigation-hover-link-color);
-}
- 
-.hero {
-    position: absolute;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 50px;
-    left: 10%;
-    right: 10%;
-    text-align: center;
-    background-color: white;
-}
-
-.hero article {
-    position: absolute;
-    top: 150px;
-    left: 10%;
-    right: 10%;
-    padding: 1em;
-    background-color: #e3e3e375;
-}
-
-.hero article img {
-    float: right;
-    margin: 10px;
-    max-width: 200px; 
- } 
-
- .history {
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
-    gap: 50px;
-}
-.history h2 {
-    grid-column: 1/4;
-    justify-self: center;
-}
-
-about us adventures styling
-.adventures {
-   display:grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 30px;
-}
-
-.adventures h2 {
-    grid-column: 1/6;
-    justify-self: center;
-}
-
-.adventures figure {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-} 
-
-.sociallinks {
-    grid-column: 3;
-}
-
-.sociallinks img {
-    width: 60px;
-}
-
-.grid> {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-
 
 h1 {
     font-size: 3rem;
@@ -180,19 +70,31 @@ a {
     text-decoration: none;
 }
 
-/* Sets default width and centers content in browser */
-header, main, footer {
+header,
+main,
+footer {
     max-width: 1280px;
     margin: auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    gap: 50px;
+    align-items: center;
+}
 
 /* header items styling */
 header {
     display: grid;
     grid-template-columns: 200px auto;
     align-items: center;
-    background-color: #484029;
+    background-color: #911668;
+}
+
+.logo {
+    width: 150px;
+    justify-self: center;
 }
 
 nav {
@@ -216,25 +118,93 @@ nav a:hover {
     color: #484029;
 }
 
+
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    right: 10%;
+    padding: 1em;
+    background-color: #e3e3e375;
+}
+
+.hero article img {
+    float: right;
+    margin: 10px;
+    max-width: 200px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    gap: 50px;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+
+/* about us adventures styling */
+.adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.adventures h2 {
+    grid-column: 1/6;
+    justify-self: center;
+}
+
+.adventures figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sociallinks {
+    grid-column: 3;
+}
+
+.sociallinks img {
+    width: 60px;
+}
+
+
+
+
+/* Footer Styling */
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #242321;
+    background-color: #911668;
     margin-top: 100px;
 }
 
 
-/* Footer Styling */
+
 footer p {
     color: #ffffff;
 }
 
-.footer-menu {
-    color: #fff;
-    text-decoration: none;
-}
 
 /* Social media link styling */
 .sociallinks {
@@ -251,45 +221,4 @@ footer p {
     background-color: unset;
 }
 
-/* default grid layout for all pages */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    align-items: center;
-}
 
-/* default hero image styling */
-.hero {
-    position: relative;
-}
-
-.hero>img {
-    display: block;
-    width: 100%;
-}
-/* Homepage Styling */
-.hero-msg {
-    justify-content: center;
-}
-
-.history-img {
-    grid-column: 2/3;
-    grid-row: 2;
-    /* This places the image in the center column */
-}
-
-.history-section p:first-of-type {
-    grid-column: 1 / 2;
-    grid-row: 2;
-    /* This places the first paragraph in the left column */
-    padding: 0 20px;
-    /* Add padding for better text readability */
-}
-
-.adventures {
-    margin: 50px 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    justify-items: center;
-}
