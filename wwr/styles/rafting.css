@@ -398,7 +398,9 @@ height: 20rem;
 }
 tr, th, td {
     border: 3px solid #e00acf;
+    background-color: #6c757d;
 }
+
 /* -------HOME-------------------------- */
 
 .btn {
