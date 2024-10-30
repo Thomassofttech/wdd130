@@ -332,7 +332,7 @@ form button[type="submit"]:hover {
 } */
 
 .table-heading {
-    text-align: center;
+    text-align: justify;
     font-weight: 700;
     font-size: 1.25em;
     letter-spacing: 1px;
