@@ -7,7 +7,6 @@
 
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
-
     --navigation-background-color: #093f75;
     --navigation-link-color: #f5f2f2;
     --navigation-hover-link-color: #093f75;
@@ -445,7 +444,7 @@ tr, th, td {
 .hero1 h1{position: absolute;z-index: 1;color: rgb(255, 255, 255);}
 .home form button {
     padding: 8px;
-    background-color: var(--primary-color);
+    background-color: blue(--primary-color);
     border: none;
     border-radius: 10px;
     font-size: 18px;
@@ -481,3 +480,13 @@ tr, th, td {
     opacity: .7;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
